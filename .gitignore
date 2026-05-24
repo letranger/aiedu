@@ -2,3 +2,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# 原始論文 PDF — 不上傳以避免著作權問題
+papers/*.pdf
