@@ -96,10 +96,6 @@ def render_card(meta: dict, slug: str) -> str:
         <div class="pc-date">{date_str}</div>
         <h2 class="pc-title">{title}</h2>
         <div class="pc-original">{original}</div>
-        <div class="pc-meta">
-          <div><strong>作者</strong>{authors}</div>
-          <div><strong>期刊</strong>{journal_line}</div>
-        </div>
         <p class="pc-abstract">{abstract}</p>
         <div class="pc-cta">閱讀全文 →</div>
       </a>"""

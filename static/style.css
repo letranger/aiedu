@@ -75,15 +75,14 @@ main.index { padding: 48px 0 80px; }
   margin-bottom: 40px;
   color: var(--c-text-light);
   font-size: 0.98rem;
-  max-width: 720px;
 }
 .card-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 22px;
+  gap: 16px;
 }
 @media (min-width: 720px) {
-  .card-grid { grid-template-columns: 1fr 1fr; }
+  .card-grid { grid-template-columns: 1fr 1fr 1fr; }
 }
 
 .paper-card {
@@ -92,7 +91,7 @@ main.index { padding: 48px 0 80px; }
   border: 1px solid var(--c-border);
   border-left: 4px solid var(--c-primary);
   border-radius: var(--radius);
-  padding: 24px 26px;
+  padding: 16px 18px;
   box-shadow: var(--shadow-card);
   transition: transform .2s ease, box-shadow .2s ease, border-left-color .2s ease;
   text-decoration: none;
@@ -114,18 +113,18 @@ main.index { padding: 48px 0 80px; }
 .paper-card .pc-title {
   font-family: var(--font-serif);
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   color: var(--c-primary);
-  line-height: 1.45;
-  margin: 0 0 6px;
+  line-height: 1.4;
+  margin: 0 0 4px;
 }
 .paper-card .pc-original {
   font-family: var(--font-sans);
   font-style: italic;
-  font-size: 0.82rem;
+  font-size: 0.75rem;
   color: var(--c-text-light);
-  margin-bottom: 12px;
-  line-height: 1.4;
+  margin-bottom: 10px;
+  line-height: 1.35;
 }
 .paper-card .pc-meta {
   font-family: var(--font-sans);
@@ -140,13 +139,13 @@ main.index { padding: 48px 0 80px; }
   margin-right: 4px;
 }
 .paper-card .pc-abstract {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--c-text);
-  line-height: 1.75;
+  line-height: 1.65;
   flex-grow: 1;
 }
 .paper-card .pc-cta {
-  margin-top: 16px;
+  margin-top: 12px;
   font-family: var(--font-sans);
   font-size: 0.8rem;
   color: var(--c-secondary);
