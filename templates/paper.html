@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}} — AI in Education</title>
+<link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<header class="site-header" style="padding-bottom:18px;">
+  <div class="container">
+    <a href="../index.html" class="back-link">← 回到論文列表</a>
+  </div>
+</header>
+
+<section class="paper-header">
+  <div class="container">
+    <span class="paper-date">{{DATE}}</span>
+    <h1 class="paper-title">{{TITLE}}</h1>
+    <div class="paper-original-title">{{ORIGINAL_TITLE}}</div>
+
+    <div class="paper-meta-block">
+      <div class="row"><span class="label">作者</span><span>{{AUTHORS}}</span></div>
+      <div class="row"><span class="label">期刊</span><span>{{JOURNAL_HTML}}（{{YEAR}}）</span></div>
+{{EXTRA_LINKS}}
+    </div>
+
+    <div class="abstract-block">
+      <span class="label">摘要</span>
+      {{ABSTRACT}}
+    </div>
+  </div>
+</section>
+
+<article class="paper-body">
+  <div class="container">
+{{BODY}}
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">letranger · aiedu notes</div>
+</footer>
+</body>
+</html>
