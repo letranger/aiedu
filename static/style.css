@@ -304,10 +304,11 @@ article.paper-body code {
 /* ===== Footer ===== */
 .site-footer {
   border-top: 1px solid var(--c-border);
-  padding: 28px 0;
-  font-family: var(--font-sans);
-  font-size: 0.78rem;
-  color: var(--c-text-dim);
+  padding: 32px 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--c-text-light);
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
