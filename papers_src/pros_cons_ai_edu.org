@@ -5,7 +5,6 @@
 #+JOURNAL_URL: https://as-proceeding.com/index.php/ijanser/home
 #+YEAR: 2024
 #+DATE: 2026-05-24
-#+PDF: papers/Pros_and_Cons_of_Artificial_Intelligence.pdf
 #+LINK: https://www.academia.edu/130156299/Pros_and_Cons_of_Artificial_Intelligence_in_Education
 #+ABSTRACT: 這篇研究系統性整理了 AI 在教育中的應用、優勢與風險，核心觀點：AI 不只是工具升級，而是改變教與學結構的關鍵力量。
 
