@@ -6,7 +6,7 @@
 #+YEAR: 2024
 #+DATE: 2026-05-27
 #+LINK: https://www.academia.edu/130156299/Pros_and_Cons_of_Artificial_Intelligence_in_Education
-#+ABSTRACT: 這篇 review 把 AI 在教育裡的好處與風險擺成兩欄對照，順便講了從 1763 年 Bayes 一路到 ChatGPT 的演化、各國錢都砸去哪、以及未來四個值得盯的趨勢。它沒有給很驚人的新發現，但對照表本身就是一面鏡子，照出我們現在對「AI 進課堂」的期待有多單純。
+#+ABSTRACT: 這篇 review 把 AI 在教育裡的好處與風險擺成兩欄對照，順便講了從 1763 年 Bayes 一路到 ChatGPT 的演化、各國錢都砸去哪、以及未來四個值得留意的趨勢。
 
 * 從 Bayes 到 ChatGPT：作者為什麼要先講一段歷史
 論文一開始花了不少篇幅，把 AI 與教學科技的時間軸拉得很長：1763 年 Bayes 的機率推論、1895 年 Marconi 的無線電報、1920 年代收音機進教室、1960 年代 PLATO、1980 年代 ICAI、1990 年代的 ITS 與 LMS、2002 年 Moodle、2008 年 MOOCs、2022 年 ChatGPT。

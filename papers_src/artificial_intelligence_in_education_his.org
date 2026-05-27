@@ -6,7 +6,7 @@
 #+YEAR: 2023
 #+DATE: 2026-05-24
 #+LINK: https://www.academia.edu/103694285/Artificial_Intelligence_in_Education_History_Roles_Benefits_Challenges_of_Implementing_Examples_and_it_Future_Implications
-#+ABSTRACT: 這篇文章把 AI 在教育裡的「來龍去脈」一次講清楚——從 1956 達特茅斯會議講到今天的 ChatBot、自適應學習、行政自動化。立場其實滿樂觀：作者認為 AI 不是要取代教師，而是要讓教育更靠近 SDG 4（優質教育）的承諾。讀起來像一份「給教育主管的入門簡報」，但對教師來說，真正有用的反而是它順手點出的那些風險。
+#+ABSTRACT: 這篇文章把 AI 在教育裡的「來龍去脈」，作者認為 AI 不是要取代教師，而是要讓教育更靠近 SDG 4（優質教育）的承諾。讀起來像一份「給教育主管的入門簡報」，但對教師來說，真正有用的反而是它順手點出的那些風險。
 
 * 先把 AI 的歷史脈絡放回教育語境
 ** AI 不是新東西，是經歷過兩次「寒冬」才走到今天
