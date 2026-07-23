@@ -7,6 +7,10 @@
 #+DATE: 2026-05-24
 #+LINK: https://www.academia.edu/130156299/Pros_and_Cons_of_Artificial_Intelligence_in_Education
 #+ABSTRACT: 這篇研究系統性整理了 AI 在教育中的應用、優勢與風險，核心觀點：AI 不只是工具升級，而是改變教與學結構的關鍵力量。
+#+begin_export html
+<a href="https://hits.sh/letranger.github.io/aiedu/papers_src/pros_cons_ai_edu.html/"><img align="right" alt="Hits" src="https://hits.sh/letranger.github.io/aiedu/papers_src/pros_cons_ai_edu.html.svg"/></a>
+#+end_export
+
 
 * 對教學最直接的三個正向影響
 ** 教學從「平均化」轉向「個別化」

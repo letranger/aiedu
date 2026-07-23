@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 進教育：一篇把「機會、好處、挑戰」分開盤點的系統性回顧 — AI in Education</title>
+<link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<header class="site-header" style="padding-bottom:18px;">
+  <div class="container">
+    <a href="../index.html" class="back-link">← 回到論文列表</a>
+  </div>
+</header>
+
+<section class="paper-header">
+  <div class="container">
+    <span class="paper-date">2026-07-23</span>
+    <h1 class="paper-title">AI 進教育：一篇把「機會、好處、挑戰」分開盤點的系統性回顧</h1>
+    <div class="paper-original-title">AI in Education: A Systematic Literature Review</div>
+
+    <div class="paper-meta-block">
+      <div class="row"><span class="label">作者</span><span>Fati Tahiru</span></div>
+      <div class="row"><span class="label">期刊</span><span>Journal of Cases on Information Technology (JCIT)（2021）</span></div>
+<div class="row"><span class="label">論文</span><a href="https://doi.org/10.4018/JCIT.2021010101" target="_blank" rel="noopener">下載/原文連結</a></div>
+    </div>
+
+    <div class="abstract-block">
+      <span class="label">摘要</span>
+      這篇回顧把 2010–2019 的 23 篇論文攤開來看，做了一件很多討論懶得做的事：把「機會」「好處」「挑戰」分成三堆分別數，還特別用 TOE 框架去問「為什麼 AI 在教育裡這麼難落地」。結論有點刺耳但誠實：問題常常出在人，不在技術。
+    </div>
+  </div>
+</section>
+
+<article class="paper-body">
+  <div class="container">
+<a href="https://hits.sh/letranger.github.io/aiedu/papers_src/ai_in_education.html/"><img align="right" alt="Hits" src="https://hits.sh/letranger.github.io/aiedu/papers_src/ai_in_education.html.svg"/></a>
+<div id="outline-container-org70d2213" class="outline-2">
+<h2 id="org70d2213">這篇回顧到底在盤點什麼</h2>
+<div class="outline-text-2" id="text-org70d2213">
+<p>
+先講清楚它是什麼：這不是一篇做實驗的論文，而是一篇「系統性文獻回顧」（systematic literature review）。作者從 215 篇初步搜尋結果裡篩到 23 篇，時間跨度是 2010 到 2019 年，然後把這些研究整理成三個維度來看：機會（opportunities）、好處（benefits）、挑戰（challenges）。
+</p>
+
+<p>
+換句話說，它想回答的是很基本、但其實很少人認真數過的問題：這十年大家研究 AI 進教育，到底在研究什麼、發現了什麼、卡在哪裡。
+</p>
+
+<p>
+值得先提一句的是作者的一個觀察：這 23 篇研究「全部」都來自已開發國家，沒有一篇是在開發中國家做的。也就是說，我們現在讀到的所有「AI 教育」樂觀敘事，背景其實都是資源相對充足的環境。我覺得這點對台灣教師蠻重要的：別人的成功案例是在別人的基礎建設上長出來的，直接搬過來不一定服水土。
+</p>
+
+<p>
+另外作者特別強調，他討論的是「軟 AI」（Soft AI），也就是只能處理特定問題的弱人工智慧，而不是科幻電影裡那種會取代人類的通用智慧。這個界定其實幫我們把後面的討論拉回現實：我們談的是工具，不是天網。
+</p>
+</div>
+</div>
+<div id="outline-container-org7265ca4" class="outline-2">
+<h2 id="org7265ca4">AI 進到教室，目前就三種樣子</h2>
+<div class="outline-text-2" id="text-org7265ca4">
+<p>
+論文把 AI 在教育裡的實際應用歸成三類，我覺得這個分類很實用，因為它把「AI 教育」這個模糊大詞拆成看得懂的東西：
+</p>
+
+<ol class="org-ol">
+<li><b>行政工作自動化</b> ：批改考試作業、處理入學申請這些重複性行政流程。選擇題早就能自動改，但論文誠實地指出，遇到申論題要不要讓 AI 打分數，「還是個嚴重的難題」。</li>
+<li><b>智慧內容（Smart Content）</b> ：把厚厚的教科書濃縮成好用的複習工具，像 Cram101、JustTheFacts101 這類 App，會自動生出章節摘要、單字卡、練習題，也包含線上虛擬課程內容。</li>
+<li><b>智慧導師系統（ITS）</b> ：這是 AI 教育研究最老的一條線，1970 年代教育心理學家 Bloom 就在推，核心是給每個學生一套個人化的引導與回饋。</li>
+</ol>
+
+<p>
+也就是說：目前 AI 在教室裡能做的，其實還是繞著「省掉老師的重複勞動」和「幫學生個別化練習」這兩件事打轉。這裡我想補一句實務判斷——這三類裡，行政自動化最快能落地也最有感，智慧導師系統喊最久但真正好用的產品一直不多。如果你要選一個切入點，先從批改和行政減負開始，通常比較不會踩空。
+</p>
+</div>
+</div>
+<div id="outline-container-orgec3c52b" class="outline-2">
+<h2 id="orgec3c52b">「機會」和「好處」不是同一件事</h2>
+<div class="outline-text-2" id="text-orgec3c52b">
+<p>
+這篇論文有個我很欣賞的細節：它把「機會」和「好處」分成兩堆，而不是混在一起講。這個區分其實很有意思——機會是「可能會怎樣」，好處是「已經被證明有效」。
+</p>
+
+<p>
+在「好處」那一堆裡，最誠實的一句話來自 Du Boulay（2016）的整理：AIED 系統的表現「比電腦輔助教學（CAI）和一群人教一大班的人類老師都好，但比一對一的人類家教稍差一點」。
+</p>
+
+<p>
+換句話說：AI 家教的定位很清楚——它贏過「爛掉的班級教學情境」，但輸給「理想的一對一真人」。也就是說，它最大的價值不是取代好老師，而是補上「老師分身乏術、照顧不到每個人」的那個缺口。這句話我覺得比任何行銷話術都準：AI 不是來搶你飯碗的，是來填你顧不到的那些學生的。
+</p>
+
+<p>
+另外論文也點出研究上的一個偏食現象：關於「好處」的文章大多停留在概念（concept）層次，真正拿出設計原型去驗證效果的很少。衍生的問題就是：我們對 AI 教育好處的信心，有很大一部分其實是「聽起來應該有用」，而不是「量過真的有用」。
+</p>
+</div>
+</div>
+<div id="outline-container-orgfeb3bc3" class="outline-2">
+<h2 id="orgfeb3bc3">用 TOE 框架拆「為什麼這麼難落地」</h2>
+<div class="outline-text-2" id="text-orgfeb3bc3">
+<p>
+這是全篇的骨架，也是作者自認的貢獻：他借用一個叫 TOE（Technology–Organization–Environment，技術—組織—環境）的框架，把挑戰分三個層次來談。這個框架原本是研究「企業為什麼會（不會）採用某項新技術」用的，套到學校身上意外地合適。
+</p>
+</div>
+<div id="outline-container-orgaeeff72" class="outline-3">
+<h3 id="orgaeeff72">技術層：資料才是真正的核心問題</h3>
+<div class="outline-text-3" id="text-orgaeeff72">
+<p>
+技術層的挑戰，說到底幾乎都繞著「資料」打轉：資料的所有權（誰的）、安全、信任、隱私。論文舉了 GoGuardian 這種監控學生上網的系統為例，問題很直接——這些敏感的學生學習紀錄，到底誰保管、誰能看、完整性由誰負責？
+</p>
+
+<p>
+還有一個容易被忽略的點：Pierce &amp; Hathaway（2018）指出，如果餵給 AI 的資料本身不準確或不完整，系統做的決策就會跟著歪，而這些決策又高度依賴系統背後的知識領域。
+</p>
+
+<p>
+也就是說：AI 教育系統的品質，上限其實被「你手上的資料有多乾淨」給鎖死了。這點對第一線很實際——很多學校連學習歷程資料都零散不全，這種底子直接談 AI 個人化，我覺得順序是反的，資料治理才是真正該先補的課。
+</p>
+</div>
+</div>
+<div id="outline-container-orgd746cf8" class="outline-3">
+<h3 id="orgd746cf8">組織層：學校的結構其實沒怎麼變</h3>
+<div class="outline-text-3" id="text-orgd746cf8">
+<p>
+組織層談的是「組織準備度」、機構結構、基礎建設夠不夠。論文引了一段 Dickson（2017）很到位的話：科技確實變了——工具數位化了、流程自動化了、地理隔閡被移除了——但教育裡的「角色和元素其實大致沒變」。
+</p>
+
+<p>
+換句話說：黑板換成白板、白板換成投影幕，教室的權力結構和互動方式其實動得很慢。論文甚至用法律業當對照組（ROSS 這類法律 AI 讓律師人數需求下降、法學院招生萎縮），來提醒教育界：真正的衝擊不是工具本身，而是它逼你重新設計課程和角色。我的判斷是，這一層才是最卡的——技術買得到，但要動組織的慣性和分工，往往不是校長一句話能解決的。
+</p>
+</div>
+</div>
+<div id="outline-container-org014f456" class="outline-3">
+<h3 id="org014f456">環境層：倫理與社會經濟問題最難處理</h3>
+<div class="outline-text-3" id="text-org014f456">
+<p>
+環境層是作者花最多篇幅的地方，講的是倫理與社會經濟議題。可能出現的問題包括：
+</p>
+
+<ol class="org-ol">
+<li>工作被取代（老師會不會被機器人取代的老焦慮）</li>
+<li>AI 評量的偏誤（bias）</li>
+<li>正當性與人權（legitimacy and human rights）</li>
+<li>問責（accountability）：出事了到底誰負責</li>
+</ol>
+
+<p>
+論文舉的兩個例子很有畫面：2016 年特斯拉自駕撞死人、微軟聊天機器人 Tay 上線不到一天就被教成滿口種族歧視而下架。
+</p>
+
+<p>
+也就是說：這些不是「教育專屬」的問題，而是 AI 這項技術本身帶進校園的風險。而問責這一題最尖銳——Everett（2019）問得很白：如果 AI 在考試裡對學生評分不公，這責任要算在誰頭上？我覺得這正是學校最沒準備好的地方，大家都在急著用，卻沒人先想清楚出事時的追究機制。
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge4295fb" class="outline-2">
+<h2 id="orge4295fb">一句最該記住的話：問題出在人，不在技術</h2>
+<div class="outline-text-2" id="text-orge4295fb">
+<p>
+如果這篇論文只能留一句給教師，我會選 Sijing &amp; Lan（2018）這個結論：AI 教育裡「真正的問題是人，不是技術本身」。他們把人分成三種角色——設計系統的工程師、使用系統的學生、以及用系統教學的老師——然後對每一種都開了功課：
+</p>
+
+<ol class="org-ol">
+<li>工程師要把「人的正當性與權利」寫進演算法的設計裡</li>
+<li>學生要修倫理相關的課，才知道怎麼用這項技術</li>
+<li>老師要引導學生做出明智判斷，而且自己也得持續更新對 AI 的理解</li>
+</ol>
+
+<p>
+換句話說：這篇回顧繞了一大圈 TOE、盤點了一堆機會與好處，最後的落點居然是很樸素的一句話——技術到位不代表事情就對了，決定 AI 在教育裡是好是壞的，還是使用它的那群人。而且作者也附和 Popenici &amp; Kerr（2017）的判斷：AI 能強化教育的流程，但「還沒準備好取代老師」，因為這項技術在其他領域已經出過太多包了。
+</p>
+
+<p>
+其實我覺得這個結論放在 2021 年（甚至放到今天）都不過時。工具年年在換，但「誰來把關、誰來負責、誰來教學生怎麼用」這些問題，一題都沒被技術自動解決掉。
+</p>
+</div>
+</div>
+<div id="outline-container-org036b359" class="outline-2">
+<h2 id="org036b359">我的想法</h2>
+<div class="outline-text-2" id="text-org036b359">
+<p>
+看完論文，我想給教師的幾個建議如下：
+</p>
+
+<ol class="org-ol">
+<li><b>先顧資料，再談個人化</b> ：這篇最硬的一課是「資料品質決定 AI 上限」。與其急著導入個人化系統，不如先問自己學校的學習資料乾不乾淨、完不完整。地基沒打好，蓋再漂亮的 AI 都會歪。</li>
+<li><b>把 AI 定位在「補位」而不是「取代」</b> ：Du Boulay 那句「贏過大班、輸給一對一」很值得記著。把 AI 用在你顧不過來的那些學生身上，效益最大，也最不會引發「老師被取代」的焦慮。</li>
+<li><b>別直接複製已開發國家的案例</b> ：論文自己承認 23 篇全來自資源充足的環境。看到國外的成功故事，先問一句「他們的基礎建設跟我一樣嗎」，再決定要不要抄。</li>
+<li><b>把「問責」當成導入前的必答題</b> ：如果 AI 評分不公、資料外洩，你的學校說得出誰負責、怎麼補救嗎？這題想不清楚就先別讓 AI 碰到會影響學生權益的決策。</li>
+<li><b>AI 素養要包含倫理，而且是各科都要</b> ：論文主張學生要修倫理課、老師要持續更新自己。這不是資訊老師一個人的事——每一科在用 AI 的時候，都是在示範「怎麼負責任地用工具」。</li>
+</ol>
+</div>
+</div>
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">在教學現場，與 AI 一起讀 paper · letranger</div>
+</footer>
+</body>
+</html>

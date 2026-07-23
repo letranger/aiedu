@@ -6,6 +6,10 @@
 #+YEAR: 2022
 #+DATE: 2026-05-24
 #+ABSTRACT: 這是一篇 2022 年發表、回頭看 COVID-19 的概覽論文，立場非常樂觀：作者群認為疫情把「教育要不要走向 AI」這個老問題直接變成「教育已經回不去了」...
+#+begin_export html
+<a href="https://hits.sh/letranger.github.io/aiedu/papers_src/the_position_of_artificial_intelligence.html/"><img align="right" alt="Hits" src="https://hits.sh/letranger.github.io/aiedu/papers_src/the_position_of_artificial_intelligence.html.svg"/></a>
+#+end_export
+
 
 * 2022年的特殊性
 這篇文章寫於 COVID-19 剛過尖峰、各國正在盤點「線上教學要不要留下來」的時間點。作者把疫情定位成一個轉捩點：政府過去不敢做的決定（全面 e-learning、放棄傳統教室），疫情幫忙做了。

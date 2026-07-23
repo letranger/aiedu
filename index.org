@@ -3,6 +3,10 @@
 #+OPTIONS: toc:2 num:t
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/letranger/css@main/muse.css" />
 #+HTML_HEAD_EXTRA: <script src="https://cdn.jsdelivr.net/gh/letranger/css@main/copy_code.js"></script>
+#+begin_export html
+<a href="https://hits.sh/letranger.github.io/aiedu/index.html/"><img align="right" alt="Hits" src="https://hits.sh/letranger.github.io/aiedu/index.html.svg"/></a>
+#+end_export
+
 
 * 《人工智慧在教育中的優點與缺點》/ 2026-05-24
 ** Pros and Cons of Artificial Intelligence in Education

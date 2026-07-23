@@ -6,6 +6,10 @@
 #+DATE: 2026-05-27
 #+LINK: https://doi.org/10.38043/telsinas.v8i2.7044
 #+ABSTRACT: 這是一篇少數專門探討AI在學校行政領域方面的研究，如果你本身就是行政人員，或要做這方面的報告，這篇paper應該有點參考價值。
+#+begin_export html
+<a href="https://hits.sh/letranger.github.io/aiedu/papers_src/7044_articletext_20489_1_10_20250926.html/"><img align="right" alt="Hits" src="https://hits.sh/letranger.github.io/aiedu/papers_src/7044_articletext_20489_1_10_20250926.html.svg"/></a>
+#+end_export
+
 
 * 這篇研究在問什麼
 這是一篇少數專門探討AI在學校行政領域方面的研究，如果你本身就是行政人員，或要做這方面的報告，這篇paper應該有點參考價值。研究屬於文獻回顧（systematic literature review）性質，從 IEEE Xplore、ScienceDirect、MDPI、Wiley、Web of Science 五個資料庫撈 2018–2025 年的文獻，從 2,850 篇一路篩到 35 篇做深入分析。換句話說：它不是自己跑實驗，而是「把這幾年大家對 AI 進入校務領導的討論整合成一張地圖」。
